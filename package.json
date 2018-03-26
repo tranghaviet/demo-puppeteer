@@ -1,0 +1,22 @@
+{
+  "name": "demo-chromeless",
+  "version": "1.0.0",
+  "description": "demo chromeless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tranghaviet/demo-chromeless.git"
+  },
+  "author": "viettrangha@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranghaviet/demo-chromeless/issues"
+  },
+  "homepage": "https://github.com/tranghaviet/demo-chromeless#readme",
+  "dependencies": {
+    "chromeless": "^1.5.1"
+  }
+}
