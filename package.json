@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/tranghaviet/demo-chromeless#readme",
   "dependencies": {
-    "chromeless": "^1.5.1"
+    "chromeless": "^1.5.1",
+    "dotenv": "^5.0.1",
+    "image-downloader": "^3.3.0",
+    "puppeteer": "^1.2.0"
   }
 }
