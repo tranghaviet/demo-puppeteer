@@ -39,7 +39,7 @@ imageHelper.getDataUrlThroughCanvas = async (selector) => {
 imageHelper.getDataUrlThroughFetch = async (selector, options = {}) => {
   const image = document.querySelector(selector);
   console.log(this);
-  // can not use getDataUrlByUrl()
+  // can not use getDataUrlByUrl() because `this` refer to getDataUrlThroughFetch()
   this.getDataUrlByUrl(image.src, options)
     .then(dataUrl => Promise.resolve(dataUrl));
 };

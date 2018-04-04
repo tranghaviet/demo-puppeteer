@@ -21,10 +21,6 @@ const defaultWaitOptions = {
     // slowMo: 10,
     headless: false,
     timeout: 100000,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-    ],
   });
 
   const amazon = (await browser.pages())[0]; // get first Page (tab)
@@ -71,7 +67,8 @@ const defaultWaitOptions = {
       // );
 
       // const { mime, buffer } = imageHelper.parseDataUrl(dataUrl);
-      // fs.writeFileSync(`${configApp.image.path}/${Math.random()}.${mime.split('/')[1]}`, buffer, 'base64');
+      // fs.writeFileSync(
+      // `${configApp.image.path}/${Math.random()}.${mime.split('/')[1]}`, buffer, 'base64');
 
       const { filename } = await imageDownloader.image({
         url: image,
